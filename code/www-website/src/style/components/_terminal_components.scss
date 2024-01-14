@@ -1,0 +1,141 @@
+.section-terminal {
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &.big-terminal {
+    position: sticky;
+    top: 20px;
+  }
+
+  p {
+    color: #FFF;
+    font-family: Chivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
+  }
+
+  &-component {
+    border-radius: 8px;
+    border: 1px solid #8B8B8B;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+
+
+
+    &-top {
+      display: flex;
+      padding: 10px 15px;
+      align-items: center;
+      justify-content: space-between;
+
+      .copy-paste {
+        cursor: pointer;
+      }
+
+      &-left {
+        display: flex;
+        gap: 5px;
+
+        p {
+          display: flex;
+          gap: 10px;
+          color: #8B8B8B;
+          font-family: Chivo;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          .json-name-container {
+            background: none;
+
+            &.active {
+              background: #242424;
+              color: white;
+            }
+          }
+
+
+        }
+      }
+    }
+    &-bot {
+      text-align: start;
+      display: flex;
+      padding: 10px 15px;
+      background: #242424;
+      border-top: 1px solid #8B8B8B;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      p {
+        color: #D9D9D9;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  &-state {
+    width: fit-content;
+    display: inline-flex;
+    padding: 5px 15px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    &.success {
+      border: 2px solid #0CA4A5;
+      background: #0CA4A5;
+
+      p {
+        color: #FFF;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &.lock {
+      cursor: not-allowed;
+      border: 2px solid #8B8B8B;
+      background: #8B8B8B;
+      p {
+        color: #000;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &.pending {
+      border: 2px solid #FFF;
+      background: #FFF;
+      cursor: pointer;
+      p {
+        color: #000;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "i18n-folder",
+  "version": "1.0.0",
+  "description": "Simplify i18n translation folder management with creation of locale, deletion of locale, automatic translation, and keys synchronization.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "i18n": "./bin/commands.js"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "i18n": "node ./bin/commands.js"
+  },
+  "keywords": [],
+  "author": "Alexandre CARAMEL & Dylan STIENNE",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}

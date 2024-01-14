@@ -1,0 +1,38 @@
+.section-installation {
+  padding-block: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+    @media (max-width: 991px) {
+        padding-block: 50px;
+    }
+
+  @media (max-width: 991px) {
+    .section-terminal {
+      width: 85%;
+      margin-inline: auto;
+    }
+  }
+
+
+
+  h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Chivo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (max-width: 991px) {
+        font-size: 48px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 32px;
+    }
+  }
+}

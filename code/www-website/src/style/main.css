@@ -1,0 +1,502 @@
+.section-home-top {
+  height: 100vh;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section-home-top:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: #8B8B8B;
+  width: 85%;
+}
+.section-home-top-container {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+@media (max-width: 991px) {
+  .section-home-top-container {
+    gap: 25px;
+  }
+}
+.section-home-top-container .logo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  .section-home-top-container .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container .logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+.section-home-top-container h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 991px) {
+  .section-home-top-container h1 {
+    font-size: 64px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container h1 {
+    font-size: 48px;
+  }
+}
+.section-home-top-container h1 span {
+  color: #0CA4A5;
+}
+.section-home-top-container p {
+  color: #8B8B8B;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 991px) {
+  .section-home-top-container p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container p {
+    font-size: 12px;
+  }
+}
+.section-home-top-container-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+@media (max-width: 991px) {
+  .section-home-top-container-buttons {
+    gap: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container-buttons {
+    flex-direction: column;
+  }
+}
+.section-home-top-container-buttons a {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Chivo;
+  cursor: pointer;
+  text-decoration: none;
+}
+.section-home-top-container-buttons a.button-blue {
+  border-radius: 8px;
+  border: 2px solid #0CA4A5;
+  background: #0CA4A5;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .section-home-top-container-buttons a.button-blue {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container-buttons a.button-blue {
+    font-size: 12px;
+  }
+}
+.section-home-top-container-buttons a.button-white {
+  border-radius: 8px;
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .section-home-top-container-buttons a.button-white {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .section-home-top-container-buttons a.button-white {
+    font-size: 12px;
+  }
+}
+
+.section-installation {
+  padding-block: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (max-width: 991px) {
+  .section-installation {
+    padding-block: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .section-installation .section-terminal {
+    width: 85%;
+    margin-inline: auto;
+  }
+}
+.section-installation h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 991px) {
+  .section-installation h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .section-installation h2 {
+    font-size: 32px;
+  }
+}
+
+.section-features {
+  padding-block: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .section-features {
+    padding-block: 50px;
+  }
+}
+.section-features .section-terminal-component {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .section-features .section-terminal-component {
+    width: 100%;
+    max-width: none;
+  }
+}
+.section-features h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 991px) {
+  .section-features h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .section-features h2 {
+    font-size: 32px;
+  }
+}
+.section-features-container {
+  display: flex;
+  gap: 50px;
+  width: 85%;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .section-features-container {
+    flex-direction: column;
+  }
+}
+.section-features-container-left {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .section-features-container-left {
+    width: 100%;
+  }
+}
+.section-features-container-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+@media (max-width: 991px) {
+  .section-features-container-right {
+    width: 100%;
+    gap: 40px;
+  }
+}
+.section-features-container-right-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-features-container-right-item p {
+  color: #FFF;
+  font-family: Chivo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 600px) {
+  .section-features-container-right-item p {
+    font-size: 18px;
+  }
+}
+
+.json-name-container {
+  border-radius: 4px;
+  background: #242424;
+  padding: 2px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+.div-spacer {
+  height: 104px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table thead .unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+table thead td {
+  position: relative;
+}
+table thead td span {
+  position: absolute;
+  margin-left: 5px;
+}
+table tbody a {
+  color: #4AA9C2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rdw-editor-main {
+  line-height: 1.6;
+}
+
+.Toastify__toast-container {
+  z-index: 999999999 !important;
+}
+
+.justify-content-space-between {
+  justify-content: space-between !important;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("./../assets/fonts/Chivo-Regular.ttf");
+}
+.section-terminal {
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-terminal.big-terminal {
+  position: sticky;
+  top: 20px;
+}
+.section-terminal p {
+  color: #FFF;
+  font-family: Chivo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+}
+@media (max-width: 600px) {
+  .section-terminal p {
+    font-size: 16px;
+  }
+}
+.section-terminal-component {
+  border-radius: 8px;
+  border: 1px solid #8B8B8B;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+.section-terminal-component-top {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-terminal-component-top .copy-paste {
+  cursor: pointer;
+}
+.section-terminal-component-top-left {
+  display: flex;
+  gap: 5px;
+}
+.section-terminal-component-top-left p {
+  display: flex;
+  gap: 10px;
+  color: #8B8B8B;
+  font-family: Chivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-terminal-component-top-left p .json-name-container {
+  background: none;
+}
+.section-terminal-component-top-left p .json-name-container.active {
+  background: #242424;
+  color: white;
+}
+.section-terminal-component-bot {
+  text-align: start;
+  display: flex;
+  padding: 10px 15px;
+  background: #242424;
+  border-top: 1px solid #8B8B8B;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.section-terminal-component-bot p {
+  color: #D9D9D9;
+  font-family: Chivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-terminal-state {
+  width: fit-content;
+  display: inline-flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 8px;
+}
+.section-terminal-state.success {
+  border: 2px solid #0CA4A5;
+  background: #0CA4A5;
+}
+.section-terminal-state.success p {
+  color: #FFF;
+  font-family: Chivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-terminal-state.lock {
+  cursor: not-allowed;
+  border: 2px solid #8B8B8B;
+  background: #8B8B8B;
+}
+.section-terminal-state.lock p {
+  color: #000;
+  font-family: Chivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-terminal-state.pending {
+  border: 2px solid #FFF;
+  background: #FFF;
+  cursor: pointer;
+}
+.section-terminal-state.pending p {
+  color: #000;
+  font-family: Chivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=main.css.map */
